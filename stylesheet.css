@@ -1,13 +1,16 @@
 body {
-    background-color: #191970
-    ;
+  background-image: linear-gradient(to bottom right, #212668,
+  #0988a9
+  );
 }
 
 h1 {
     text-align: center;
-    color: black;
+    color: white;
     font-size: 150px;
-    text-shadow: 0 0 5px white	, 0 0 5px white;
+    text-shadow: 0 0 5px green
+    , 0 0 5px green
+    ;
 }
 
 p {
@@ -16,11 +19,13 @@ p {
     font-size: 50px;
 }
 
-.Family {
+.pig {
+  border: 5px solid green;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    opacity: 50;
 }
 
 .container {
