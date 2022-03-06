@@ -1,11 +1,13 @@
-import React from "react";
-import {
-  BrowserRouter as Router, Switch,
-  Route, Redirect,
-} from "react-router-dom";
+import React, { useState } from "react";
+import { BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 import '../stylesheet.css';
 import bluePiggyBank from '../images/blue piggy bank.jpg';
+
+
 const SignOn = () => {
+  const [username, setUsername] = useState('')
+  const [password, setPassword] = useState('')
+
   return (
     <div>
       <title>Budget App</title>
@@ -15,10 +17,10 @@ const SignOn = () => {
           <img src= {bluePiggyBank}class="pig" />
         </div>
         <div className="container">
-          <label for="uname"><b></b></label>
+          <label for="uname"><b>Username</b></label>
           <input type="text" placeholder="Enter Username" name="username" required />
 
-            <label for="psw"><b></b></label>
+            <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="password" required />
 
               <button type="submit">Login</button>
@@ -29,4 +31,5 @@ const SignOn = () => {
           </form>
         </div>
         );
+
 }; export default SignOn;
