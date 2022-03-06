@@ -32,6 +32,11 @@ p {
     padding: 16px;
 }
 
+.budget-section {
+  display: flex;
+  justify-content: space-between;
+}
+
 
 
 /* Full-width inputs */
