@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { BrowserRouter as Router, Switch, Route, Redirect} from "react-router-dom";
 import '../stylesheet.css';
 import bluePiggyBank from '../images/blue piggy bank.jpg';
 
