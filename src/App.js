@@ -1,11 +1,14 @@
 import './App.css';
 import SignOn from './components/SignOnPage';
+import HomePage from './components/HomePage';
 
 function App() {
   return (
     <div className="App">
-   < SignOn />
+      < SignOn />,
+      < HomePage />
     </div>
+
   );
 }
 
